@@ -24,14 +24,10 @@ Key features of the command interpreter typically include:
         5. Integration with application logic:
 
 the command interpreter plays a vital role in enabling users to interact with the AirBnB clone application effectively through the command line interface.
-
 <br />
-
 ##How to start it
 <br />
-
 The procedure for starting the AirBnB clone project involves the following steps:
-<br />
         1. Project Setup: Create a project directory, set up a virtual environment, and use version control (e.g., Git) from the start.
         2. Design and Planning: Define key features clearly and create a basic project structure with minimal modules/classes.
         3. Implement the Command Line Interface (CLI): Develop essential commands and focus on core functionality before adding advanced features.
@@ -45,8 +41,7 @@ The procedure for starting the AirBnB clone project involves the following steps
         9. Deployment: Consider deploying locally or on a cloud platform, use continuous integration tools for automation.
 
 <br />
-
-## How to use it
+##How to use it
 <br />
 
 To use the AirBnB_clone project, you can follow these general steps:
@@ -76,7 +71,6 @@ Following the above steps can effectively make use of AirBnB_clone project, inte
 ##Examples of AirBnB_clone project
 <br />
 <p> Some examples of projects that can be built as an AirBnB_clone project include:</p>
-
 <ul>
 <li>Rental Property Management System:</li>
 Create a platform for property owners to list their rental properties, manage bookings, and handle guest interactions.
