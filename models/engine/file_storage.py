@@ -1,6 +1,10 @@
 #!/usr/bin/python3
 
-""" A class FileStorage that serializes instances to a JSON file and deserializes JSON file to instances:"""
+""" File Storage class
+for serialization into a JSON file and
+deserialization of JSON file
+into an instances."""
+
 
 import json
 from os import path
@@ -12,12 +16,15 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 
+
 class Filestorage:
     """
     A class that uses the following  private class attributes:
     __file_path: string - path to the JSON file (ex: file.json)
-    __objects: dictionary - empty but will store all objects by <class name>.id
-    (ex: to store a BaseModel object with id=12121212, the key will be BaseModel.12121212)"""
+    __objects: dictionary - empty but will store all 
+    objects by <class name>.id
+    (ex: to store a BaseModel object with id=12121212, the key will be 
+    BaseModel.12121212)"""
 
     classes = {
             "BaseModel": BaseModel, "User": User, "Place": Place, "State": State, "City": City, "Amenity": Amenity, "Review": Review
