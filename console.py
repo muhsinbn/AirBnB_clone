@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""A program called console.py that contains the entry point of the command interpreter:"""
+"""A program  that contains the entry point of the command interpreter:"""
 
 import cmd
 import models
@@ -13,6 +13,7 @@ from models.state import State
 from models.city import City
 from models.amenity import Amenity
 from models.review import Review
+
 
 class HBNBCommand(cmd.Cmd):
     prompt = "(hbnb) "
