@@ -21,13 +21,14 @@ class Filestorage:
     """
     A class that uses the following  private class attributes:
     __file_path: string - path to the JSON file (ex: file.json)
-    __objects: dictionary - empty but will store all 
+    __objects: dictionary - empty but will store all
     objects by <class name>.id
-    (ex: to store a BaseModel object with id=12121212, the key will be 
+    (ex: to store a BaseModel object with id=12121212, the key will be
     BaseModel.12121212)"""
 
     classes = {
-            "BaseModel": BaseModel, "User": User, "Place": Place, "State": State, "City": City, "Amenity": Amenity, "Review": Review
+            "BaseModel": BaseModel, "User": User, "Place": Place, "State":
+            State, "City": City, "Amenity": Amenity, "Review": Review
     }
 
     __file_path = "file.json"  # path to the JSON file
