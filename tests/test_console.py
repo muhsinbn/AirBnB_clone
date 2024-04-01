@@ -29,6 +29,11 @@ class TestConsole(unittest.TestCase):
         self.console.onecmd(command)
         self.assertEqual(mock_stdout.getvalue(), expected_output)
 
+class FileStorage:
+    def reset(self):
+        # Implement the logic to reset the FileStorage object
+        pass
+
     def test_create_show_destroy_all_update_commands(self):
         storage.reset()
 
