@@ -1,0 +1,30 @@
+.filters {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filters button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.filters ul {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.filters ul li {
+    padding: 5px;
+}
+
+.filters:hover ul {
+    display: block;
+}
